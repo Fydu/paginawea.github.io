@@ -1,0 +1,63 @@
+.h1 h1{
+    text-align: center;
+    justify-items: center;
+    color: rgba(255, 255, 0, 0.801);
+    text-shadow: 6px 10px 20px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.img img{
+    padding: 1em;
+    border-radius: 50px;
+}
+
+body{
+    background-image: url(/Multimedia/unknown.png);
+    background-position: center center;
+
+}
+
+.boton img{
+    border-radius: 100px;
+    padding: 2em;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.boton img:hover{
+    box-shadow: 10px 15px 20px;
+    color: black;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 660px;
+}
+
+.papus img{
+    border-radius: 100px;
+    padding-top: 100px;
+}
+
+.imgno{
+    display: flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
+}
+
+.imgno img{
+    border-radius: 20px;
+}
+
+.body-otro{
+    background-color: white;
+    background-image: none;
+}
+
